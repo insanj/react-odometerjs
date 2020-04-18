@@ -13,6 +13,7 @@ export default class ReactOdometer extends PureComponent {
     selector: PropTypes.string,
     theme: PropTypes.string,
     value: PropTypes.number.isRequired,
+    minIntegerLen: PropTypes.number,
   };
 
   constructor(props) {
